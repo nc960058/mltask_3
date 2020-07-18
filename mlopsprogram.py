@@ -116,6 +116,6 @@ if new > old :
   accuracyStored = open('/mlops/accuracy.txt','w')
   accuracyStored.write(str(new))
   accuracyStored.close()
-  model.save("RahulFinalModel.h5")
+  model.save("FinalModel.h5")
 else :
   print("No improverment , model is saved with previous accuracy of {}".format(old))
